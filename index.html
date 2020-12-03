@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy-House</title>
+    <!-- font awesome -->
+    <link 
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="integrity= sha384-50obuhemvpq+1lw4y57ptfmhcaxp0ml5d60m1m7uh2+nquivziebhndojk28anvf"
+        crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/6699592d2c.js" crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href ="style.css">
+</head>
+<body>
+    
+    <!-- ===========================navbar============================ -->
+    <nav class="nav">
+    <div class="navbar-centre">
+        <span class="navbar-icon">
+            <i class="fas fa-bars"></i>
+        </span>
+        <img src="./images/comfy.jpg" alt="store logo"/>
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+            </span>
+            <div class="cart-items">0</div>
+        </div>
+    </div>
+    </nav>
+<!-- ==========================end of navbar====================== -->
+
+<!-- ========--------------------hero------------==============-------  -->
+<header class="hero">
+    <div class="banner">
+        <h1 class="banner-title">furniture collection</h1>
+        <button class="banner-btn">Shop Now</button>
+    </div>
+
+</header>
+<!-- =========----------------end of hero-----------=================== -->
+
+<!-- ----------===========================product==================--------------------- -->
+<section class="products">
+    <div class="section-title">
+        <h2>our product</h2>
+    </div>
+    <div class="product-centre">
+        <!------------ single product ---------------->
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/twin-pannel-bed.webp" alt="product" class="product-img">
+                <button class="bag-btn" data-id = "1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+                </button>
+            </div>
+            <h3>queen bed</h3>
+            <h4>Rs 15,000</h4>
+        </article>
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/furniture-chair.webp" alt="product" class="product-img">
+                <button class="bag-btn" data-id = "1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+                </button>
+            </div>
+            <h3>furniture-chair</h3>
+            <h4>Rs 15,000</h4>
+        </article>
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/kitchen-fridge.webp" height="100px" alt="product" class="product-img">
+                <button class="bag-btn" data-id = "1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+                </button>
+            </div>
+            <h3>kitchen-fridge </h3>
+            <h4>Rs 15,000</h4>
+        </article>
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/bed-3.jpg" height="100px" alt="product" class="product-img">
+                <button class="bag-btn" data-id = "1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+                </button>
+            </div>
+            <h3>Twin pannel Bed</h3>
+            <h4>Rs 15,000</h4>
+        </article>
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/couch-pix-3.webp" alt="product" class="product-img">
+                <button class="bag-btn" data-id = "1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+                </button>
+            </div>
+            <h3>Couch</h3>
+            <h4>Rs 15,000</h4>
+        </article>
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/dinning table-5.jpg" height="100px" alt="product" class="product-img">
+                <button class="bag-btn" data-id = "1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+                </button>
+            </div>
+            <h3>Dinning Table</h3>
+            <h4>Rs 15,000</h4>
+        </article>
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/single-bed.webp" height="50px" alt="product" class="product-img">
+                <button class="bag-btn" data-id = "1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+                </button>
+            </div>
+            <h3>Single-bed</h3>
+            <h4>Rs 15,000</h4>
+        </article>
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/chair.webp" alt="product" class="product-img">
+                <button class="bag-btn" data-id = "1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+                </button>
+            </div>
+            <h3>Chair</h3>
+            <h4>Rs 15,000</h4>
+        </article>
+        <!---------------------------end of single product -------------------------->
+    </div>
+</section>
+            <!-- ---------------================cart===============------->
+<div class="cart-over-lay">
+    <div class="cart">
+        <span class="close-cart">
+            <i class="fas fa-window-close"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-content"></div>
+        <!-- -----       cart items    --------->
+        <div class="cart-item">
+            <img src="./images/twin-pannel-bed.webp" height="100px" alt="product">
+            <div>
+                <h4>Queen Bed</h4>
+                <h5>Rs 15,000</h5>
+                <span class="remove-items">remove</span>
+            </div>
+            <div>
+                <i class="fas fa-chevron-up"></i>
+                <p class="item-amount">1</p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+        <!-- -------- end of cart items  ------ -->
+        <div class="cart-footer">
+            <h3> your total : Rs <span class="cart-total">0
+            </span></h3>
+            <!-- <button class="banner-btn">clear-cart</button> -->
+            <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+    
+    </div>
+</div>
+
+<!-- ----------==========end of cart========--------------->
+
+
+<!-- -----------======================end of product=======================------------ -->
+
+    <script src="app.js"></script>
+</body>
+</html>
